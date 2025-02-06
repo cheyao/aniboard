@@ -3090,12 +3090,6 @@
 		(uuid "41c3b7eb-d8ce-423b-beec-042914a3cbea")
 	)
 	(junction
-		(at 243.84 95.1258)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "423d2224-31dd-4486-84e0-c3e0d8fc6998")
-	)
-	(junction
 		(at 121.92 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3804,6 +3798,12 @@
 		(uuid "82cc5f66-715e-4a52-b6ea-2795132529bd")
 	)
 	(junction
+		(at 243.84 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a62434-723b-4cf8-a2a7-074a82a4bdf7")
+	)
+	(junction
 		(at 443.1689 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4006,6 +4006,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9426a9ab-f9e1-4a8e-addd-0e1d732011a4")
+	)
+	(junction
+		(at 254 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "945b630a-157d-4839-b1ce-2b776d8e0cd3")
 	)
 	(junction
 		(at 39.37 270.51)
@@ -5883,7 +5889,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 270.51 102.87)
+			(xy 220.98 102.87) (xy 254 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8343,6 +8349,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 102.87) (xy 270.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65741992-7ea2-47bb-86ae-5fe5895b181c")
+	)
+	(wire
+		(pts
 			(xy 374.65 52.07) (xy 374.65 50.8)
 		)
 		(stroke
@@ -8450,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "699a9746-9e16-4e9c-94a8-737337019fa3")
-	)
-	(wire
-		(pts
-			(xy 243.84 95.1258) (xy 243.84 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a350b4-fe07-445b-b451-cbda6e12ad74")
 	)
 	(wire
 		(pts
@@ -9293,7 +9299,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 74.93) (xy 243.84 95.1258)
+			(xy 243.84 74.93) (xy 243.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9410,6 +9416,16 @@
 			(type default)
 		)
 		(uuid "873532fe-4ef4-414b-bb57-8cc82a7332fe")
+	)
+	(wire
+		(pts
+			(xy 243.84 95.25) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87775043-43a3-4348-b487-796ffbe61532")
 	)
 	(wire
 		(pts
@@ -10903,7 +10919,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 328.93) (xy 359.41 328.93)
+			(xy 31.75 328.93) (xy 24.13 328.93)
 		)
 		(stroke
 			(width 0)
@@ -13729,29 +13745,7 @@
 	)
 	(global_label "LED3"
 		(shape input)
-		(at 24.13 262.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5829a5af-045b-41eb-8881-506af2e93967")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.4882 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED4"
-		(shape input)
-		(at 359.41 328.93 0)
+		(at 359.41 262.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13759,14 +13753,36 @@
 			)
 			(justify left)
 		)
-		(uuid "6236a4ac-772c-4fd1-a35b-7398a6c4556f")
+		(uuid "5829a5af-045b-41eb-8881-506af2e93967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.0518 328.93 0)
+			(at 367.0518 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED4"
+		(shape input)
+		(at 24.13 328.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6236a4ac-772c-4fd1-a35b-7398a6c4556f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.4882 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13795,22 +13811,22 @@
 	)
 	(global_label "LED2"
 		(shape input)
-		(at 24.13 196.85 180)
+		(at 359.41 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "733ee266-1507-422c-87af-21dcd0afb25b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.4882 196.85 0)
+			(at 367.0518 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14323,44 +14339,44 @@
 	)
 	(global_label "LED3"
 		(shape input)
-		(at 359.41 262.89 0)
+		(at 24.13 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b41369f7-7809-4507-9771-8b620cef2735")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.0518 262.89 0)
+			(at 16.4882 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 359.41 196.85 0)
+		(at 24.13 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b84a5657-d15e-4747-99c8-bf437302db0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.0518 196.85 0)
+			(at 16.4882 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14860,7 +14876,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 325.12 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14883,7 +14898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 325.12 262.89 0)
 			(effects
 				(font
@@ -15230,7 +15245,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 344.17 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15253,7 +15267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 344.17 262.89 0)
 			(effects
 				(font
@@ -15659,7 +15673,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 306.07 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15682,7 +15695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 306.07 196.85 0)
 			(effects
 				(font
@@ -15867,7 +15880,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 344.17 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15890,7 +15902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 344.17 328.93 0)
 			(effects
 				(font
@@ -16509,7 +16521,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 191.77 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16532,7 +16543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 191.77 196.85 0)
 			(effects
 				(font
@@ -16727,7 +16738,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 172.72 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16750,7 +16760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 172.72 262.89 0)
 			(effects
 				(font
@@ -17096,7 +17106,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 325.12 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17119,7 +17128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 325.12 196.85 0)
 			(effects
 				(font
@@ -17170,7 +17179,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 39.37 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17193,7 +17201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 39.37 262.89 0)
 			(effects
 				(font
@@ -17318,7 +17326,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 210.82 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17341,7 +17348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 210.82 196.85 0)
 			(effects
 				(font
@@ -17392,7 +17399,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 248.92 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17415,7 +17421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 248.92 328.93 0)
 			(effects
 				(font
@@ -17536,7 +17542,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 191.77 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17559,7 +17564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 191.77 262.89 0)
 			(effects
 				(font
@@ -17772,7 +17777,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 344.17 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17795,7 +17799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 344.17 196.85 0)
 			(effects
 				(font
@@ -18350,7 +18354,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 229.87 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18373,7 +18376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 229.87 328.93 0)
 			(effects
 				(font
@@ -18424,7 +18427,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 96.52 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18447,7 +18449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 96.52 262.89 0)
 			(effects
 				(font
@@ -18704,7 +18706,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 58.42 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18727,7 +18728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 58.42 328.93 0)
 			(effects
 				(font
@@ -19568,7 +19569,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 248.92 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19591,7 +19591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 248.92 196.85 0)
 			(effects
 				(font
@@ -21005,7 +21005,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 153.67 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21028,7 +21027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 153.67 262.89 0)
 			(effects
 				(font
@@ -22493,7 +22492,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 77.47 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22516,7 +22514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 77.47 262.89 0)
 			(effects
 				(font
@@ -23047,7 +23045,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 287.02 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23070,7 +23067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 287.02 328.93 0)
 			(effects
 				(font
@@ -24238,7 +24235,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 134.62 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24261,7 +24257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 134.62 196.85 0)
 			(effects
 				(font
@@ -25338,7 +25334,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 229.87 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25361,7 +25356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 229.87 262.89 0)
 			(effects
 				(font
@@ -25644,7 +25639,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 77.47 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25667,7 +25661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 77.47 328.93 0)
 			(effects
 				(font
@@ -26762,7 +26756,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 115.57 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26785,7 +26778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 115.57 196.85 0)
 			(effects
 				(font
@@ -27535,7 +27528,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 39.37 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27558,7 +27550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 39.37 196.85 0)
 			(effects
 				(font
@@ -28284,7 +28276,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 248.92 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28307,7 +28298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 248.92 262.89 0)
 			(effects
 				(font
@@ -28966,7 +28957,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 58.42 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28989,7 +28979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 58.42 262.89 0)
 			(effects
 				(font
@@ -30368,7 +30358,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 306.07 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30391,7 +30380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 306.07 262.89 0)
 			(effects
 				(font
@@ -32969,7 +32958,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 287.02 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32992,7 +32980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 287.02 262.89 0)
 			(effects
 				(font
@@ -33043,7 +33031,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 77.47 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33066,7 +33053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 77.47 196.85 0)
 			(effects
 				(font
@@ -33589,7 +33576,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 267.97 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33612,7 +33598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 267.97 196.85 0)
 			(effects
 				(font
@@ -34711,7 +34697,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 210.82 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34734,7 +34719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 210.82 328.93 0)
 			(effects
 				(font
@@ -34785,7 +34770,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 39.37 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34808,7 +34792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 39.37 328.93 0)
 			(effects
 				(font
@@ -34947,7 +34931,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 210.82 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34970,7 +34953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 210.82 262.89 0)
 			(effects
 				(font
@@ -35369,7 +35352,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 134.62 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35392,7 +35374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 134.62 328.93 0)
 			(effects
 				(font
@@ -37072,7 +37054,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 325.12 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37095,7 +37076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 325.12 328.93 0)
 			(effects
 				(font
@@ -38399,7 +38380,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 306.07 328.93 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38422,7 +38402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 306.07 328.93 0)
 			(effects
 				(font
@@ -38473,7 +38453,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 229.87 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38496,7 +38475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 229.87 196.85 0)
 			(effects
 				(font
@@ -38777,7 +38756,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 134.62 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38800,7 +38778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 134.62 262.89 0)
 			(effects
 				(font
@@ -39056,7 +39034,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 153.67 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39079,7 +39056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 153.67 196.85 0)
 			(effects
 				(font
@@ -39129,7 +39106,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 248.92 95.1258 0)
+		(at 248.92 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39138,7 +39115,7 @@
 		(fields_autoplaced yes)
 		(uuid "dada0744-73ab-4314-856b-41ab2c876470")
 		(property "Reference" "SW55"
-			(at 248.92 87.5058 0)
+			(at 248.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39146,7 +39123,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 248.92 90.0458 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39154,7 +39131,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 248.92 90.0458 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39163,7 +39140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 90.0458 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39172,7 +39149,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 248.92 95.1258 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39268,7 +39245,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 287.02 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39291,7 +39267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 287.02 196.85 0)
 			(effects
 				(font
@@ -40009,7 +39985,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 96.52 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40032,7 +40007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 96.52 196.85 0)
 			(effects
 				(font
@@ -41007,7 +40982,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 58.42 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41030,7 +41004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 58.42 196.85 0)
 			(effects
 				(font
@@ -41973,7 +41947,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 172.72 196.85 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41996,7 +41969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 172.72 196.85 0)
 			(effects
 				(font
@@ -42457,7 +42430,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 254 98.9358 90)
+		(at 254 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42466,7 +42439,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4bcfc44-14aa-4a4b-b907-a384785370d1")
 		(property "Reference" "D55"
-			(at 256.54 97.6657 90)
+			(at 256.54 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42475,7 +42448,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 256.54 100.2057 90)
+			(at 256.54 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42484,7 +42457,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
-			(at 254 98.9358 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42493,7 +42466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 98.9358 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42502,7 +42475,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 254 98.9358 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42511,7 +42484,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 254 98.9358 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42520,7 +42493,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 254 98.9358 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42750,7 +42723,6 @@
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 115.57 262.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42773,7 +42745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
 			(at 115.57 262.89 0)
 			(effects
 				(font

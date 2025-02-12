@@ -101,7 +101,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "ignore",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
@@ -491,11 +491,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/cyao/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "/home/cyao/Downloads/",
       "vrml": ""
     },
     "page_layout_descr_file": ""

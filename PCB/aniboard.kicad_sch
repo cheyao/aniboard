@@ -15109,6 +15109,28 @@
 			)
 		)
 	)
+	(global_label "INDICATOR"
+		(shape input)
+		(at 410.21 223.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3233a713-c7b1-4c36-9ab1-c5a75e76b901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.21 236.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED4"
 		(shape input)
 		(at 359.41 321.31 0)

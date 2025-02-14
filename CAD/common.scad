@@ -2,37 +2,51 @@
 // Copyright: @Cyao 2025
 // Common variables for the case
 
+// NOTE: This requires you to have the MCU on the backplate
+// NOTE: ALL VALUES ARE ABSOLUTE
+
 include <BOSL/constants.scad>
 use <BOSL/shapes.scad>
 
-// KLE
+// --------------------------
+// Constants area
+// --------------------------
+
+// KLE from https://kbplate.ai03.com/ and https://www.keyboard-layout-editor.com/
 PLATE_FILE_NAME = "plate.dxf";
+
+// How much do you want your keyboard to incline?
+KEYBOARD_ANGLE = 10;
+
 // Width of the PCB
+PCB_ROUNDED = false;
+PCB_FILLET_RADIUS = 5;
 PCB_WIDTH = 355;
 PCB_HEIGHT = 120;
+
 // Offset of your keys from the top left of the board
 KEY_OFFSET_X = 4.119;
 KEY_OFFSET_Y = 4.015;
+
 // Total width of the keys
 KEYS_WIDTH = 347.66;
 KEYS_HEIGHT = 114.3;
-// Should be kept 1.5mm: https://cdn.shopify.com/s/files/1/0657/6075/5954/files/SPEC-CPG151101S21_Kailh_Red_Switch_b6770d67-8f51-48d9-9ec1-45442f4de278.pdf?v=1667196539
-PLATE_THICKNESS = 1.5;
-PCB_THICKNESS = 1.6;
-// 2.9 for low flex, 4 for high flex
-PCB_TO_BOTTOM = 3.2;
 
 // Thickness of the walls
 WALL_THICKNESS = 7;
 
-// Angle of the plate fillet in degs
-FILLET = true;
-FILLET_ANGLE = 22;
+// Round edges?
+FILLET = false;
+FILLET_RADIUS = 2;
+CHAMFER = true;
+CHAMFER_ANGLE = 22;
+
+assert(!(CHAMFER && FILLET), "You can't activate fillet and chamfer at the same time!");
 
 // OLED settings, the default is for a 0.91" OLED
 // If you want your OLED to poke out, use the module size
 OLED_HOLE = true;
-OLED_WIDTH = 30;
+OLED_WIDTH = 27;
 OLED_HEIGHT = 11.5;
 OLED_OFFSET_X = 300.9;
 OLED_OFFSET_Y = 4.56;
@@ -40,9 +54,30 @@ OLED_OFFSET_Y = 4.56;
 // You prob wan't to leave it like this
 TOP_EXTEND = 5;
 
+// 2.9 for low flex, 4 for high flex
+// distance from the bottom of the PCB to the case
+PCB_TO_BOTTOM = 3.2;
+
+// --------------------------
+// Advanced area
+// --------------------------
+
+// Should be kept 1.5mm: https://cdn.shopify.com/s/files/1/0657/6075/5954/files/SPEC-CPG151101S21_Kailh_Red_Switch_b6770d67-8f51-48d9-9ec1-45442f4de278.pdf?v=1667196539
+PLATE_THICKNESS = 1.5;
+PCB_THICKNESS = 1.6;
+
+// --------------------------
+// Don't touch - Common calculated variables
+// --------------------------
 
 // From the top of the plate to the inner edge of the case
 TOTAL_INNER_HEIGHT = PCB_THICKNESS + PCB_TO_BOTTOM + 5;
 TOTAL_WIDTH = PCB_WIDTH + 2 * WALL_THICKNESS;
 TOTAL_HEIGHT = PCB_HEIGHT + 2 * WALL_THICKNESS;
+
+PLATE_TO_BOTTOM = PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS;
+
+// --------------------------
+// Common code
+// --------------------------
 

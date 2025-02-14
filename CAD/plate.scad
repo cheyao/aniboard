@@ -5,6 +5,8 @@ include <BOSL/constants.scad>
 use <BOSL/shapes.scad>
 include <common.scad>
 
+// TODO: Acrylic for OLED
+
 module key_holes() {
 	translate([KEY_OFFSET_X, -KEY_OFFSET_Y, 0])
 	difference() {
@@ -28,32 +30,44 @@ module base() {
 	}
 }
 
-module insert() {
-	cylinder(h=4.0001, d=4.7, $fn=10);
+module chamfer() {
+	translate([0, -TOTAL_HEIGHT+WALL_THICKNESS, TOP_EXTEND])
+	rotate(CHAMFER_ANGLE, [1, 0, 0])
+	translate([-WALL_THICKNESS-25, -40, 0])
+	cube([TOTAL_WIDTH + 50, 80, 10]);
+
+	translate([0, WALL_THICKNESS, TOP_EXTEND])
+	rotate(CHAMFER_ANGLE, [-1, 0, 0])
+	translate([-WALL_THICKNESS-25, -40, 0])
+	cube([TOTAL_WIDTH + 50, 80, 10]);
+
+	translate([TOTAL_WIDTH-WALL_THICKNESS, 0, TOP_EXTEND])
+	rotate(CHAMFER_ANGLE, [0, 1, 0])
+	translate([-40, -TOTAL_HEIGHT-25+WALL_THICKNESS, 0])
+	cube([80, TOTAL_HEIGHT + 50, 10]);
+
+	translate([-WALL_THICKNESS, 0, TOP_EXTEND])
+	rotate(CHAMFER_ANGLE, [0, -1, 0])
+	translate([-40, -TOTAL_HEIGHT-25+WALL_THICKNESS, 0])
+	cube([80, TOTAL_HEIGHT + 50, 10]);
 }
 
 module fillet() {
-	if (FILLET) {
-		translate([0, -TOTAL_HEIGHT+WALL_THICKNESS, TOP_EXTEND])
-		rotate(FILLET_ANGLE, [1, 0, 0])
-		translate([-WALL_THICKNESS-25, -40, 0])
-		cube([TOTAL_WIDTH + 50, 80, 10]);
+	translate([-25, WALL_THICKNESS, TOP_EXTEND+PLATE_THICKNESS])
+	interior_fillet(l=TOTAL_WIDTH + 50, r=FILLET_RADIUS, orient=ORIENT_X_180, align=V_RIGHT, $fn=40);
 
-		translate([0, WALL_THICKNESS, TOP_EXTEND])
-		rotate(FILLET_ANGLE, [-1, 0, 0])
-		translate([-WALL_THICKNESS-25, -40, 0])
-		cube([TOTAL_WIDTH + 50, 80, 10]);
+	translate([0, -PCB_HEIGHT-WALL_THICKNESS, TOP_EXTEND+PLATE_THICKNESS])
+	rotate(180, [0, 0, 1])
+	translate([-TOTAL_WIDTH - 25, 0, 0])
+	interior_fillet(l=TOTAL_WIDTH + 50, r=FILLET_RADIUS, orient=ORIENT_X_180, align=V_RIGHT, $fn=40);
 
-		translate([TOTAL_WIDTH-WALL_THICKNESS, 0, TOP_EXTEND])
-		rotate(FILLET_ANGLE, [0, 1, 0])
-		translate([-40, -TOTAL_HEIGHT-25+WALL_THICKNESS, 0])
-		cube([80, TOTAL_HEIGHT + 50, 10]);
+	translate([-WALL_THICKNESS, -PCB_HEIGHT-WALL_THICKNESS-25, TOP_EXTEND+PLATE_THICKNESS])
+	rotate(90, [0, 0, 1])
+	interior_fillet(l=TOTAL_HEIGHT + 50, r=FILLET_RADIUS, orient=ORIENT_X_180, align=V_RIGHT, $fn=40);
 
-		translate([-WALL_THICKNESS, 0, TOP_EXTEND])
-		rotate(FILLET_ANGLE, [0, -1, 0])
-		translate([-40, -TOTAL_HEIGHT-25+WALL_THICKNESS, 0])
-		cube([80, TOTAL_HEIGHT + 50, 10]);
-	}
+	translate([PCB_WIDTH+WALL_THICKNESS, 25+WALL_THICKNESS, TOP_EXTEND+PLATE_THICKNESS])
+	rotate(270, [0, 0, 1])
+	interior_fillet(l=TOTAL_HEIGHT + 50, r=FILLET_RADIUS, orient=ORIENT_X_180, align=V_RIGHT, $fn=40);
 }
 
 module edge() {
@@ -67,8 +81,15 @@ module edge() {
 		translate([-2, -KEYS_HEIGHT-2, 0])
 		square([KEYS_WIDTH-0.002+4, KEYS_HEIGHT+4], center=false);
 
-		translate([0, 0, -PLATE_THICKNESS])
-		fillet();
+		if (CHAMFER) {
+			translate([0, 0, -PLATE_THICKNESS])
+			chamfer();
+		}
+
+		if (FILLET) {
+			translate([0, 0, -PLATE_THICKNESS])
+			fillet();
+		}
 	}
 }
 
@@ -86,20 +107,29 @@ module oled_hole() {
 	cube([OLED_WIDTH+0.4, OLED_HEIGHT+0.4, 90]);
 }
 
-difference() {
-	main_body();
-
-	translate([-WALL_THICKNESS/2+0.5, WALL_THICKNESS/2-0.5, -0.001])
-	insert();
-
-	translate([-WALL_THICKNESS/2+0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
-	insert();
-
-	translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, WALL_THICKNESS/2-0.5, -0.001])
-	insert();
-
-	translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
-	insert();
-
-	oled_hole();
+module insert() {
+	cylinder(h=4.0001, d=4.7, $fn=10);
 }
+
+module plate() {
+	difference() {
+		main_body();
+
+		translate([-WALL_THICKNESS/2+0.5, WALL_THICKNESS/2-0.5, -0.001])
+		insert();
+
+		translate([-WALL_THICKNESS/2+0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
+		insert();
+
+		translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, WALL_THICKNESS/2-0.5, -0.001])
+		insert();
+
+		translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
+		insert();
+
+		oled_hole();
+	}
+}
+
+plate();
+

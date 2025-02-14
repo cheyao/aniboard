@@ -1,3 +1,6 @@
+[submodule "CAD/BOSL"]
+	path = CAD/BOSL
+	url = https://github.com/revarbat/BOSL
 [submodule "PCB/KiCad-RP-Pico"]
 	path = PCB/KiCad-RP-Pico
 	url = https://github.com/ncarandini/KiCad-RP-Pico

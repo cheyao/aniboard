@@ -1,0 +1,2 @@
+acon.png: https://github.com/acornitum
+gura-a.png: https://www.pixiv.net/en/artworks/105907849

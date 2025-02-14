@@ -494,7 +494,7 @@
       "plot": "/home/cyao/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "aniboard.step",
       "svg": "/home/cyao/Downloads/",
       "vrml": ""
     },

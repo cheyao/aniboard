@@ -2,6 +2,8 @@
 
 The keyboard PCB is 355x120mm
 
+Key offset: 4.119x4.015mm
+
 Mounting hole at 285x70mm
 
 # BOM

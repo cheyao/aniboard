@@ -11,9 +11,9 @@ module main_body() {
 		cuboid([PCB_WIDTH+WALL_THICKNESS*2, PCB_HEIGHT+WALL_THICKNESS*2, WALL_THICKNESS+PLATE_TO_BOTTOM], 
 		       fillet=5, edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 
-		translate([0, -PCB_HEIGHT, WALL_THICKNESS])
+		translate([0.5, -PCB_HEIGHT+0.5, WALL_THICKNESS])
 		if (PCB_ROUNDED) {
-			cuboid([PCB_WIDTH, PCB_HEIGHT, PLATE_TO_BOTTOM+0.001], fillet=PCB_FILLET_RADIUS, 
+			cuboid([PCB_WIDTH+1, PCB_HEIGHT+1, PLATE_TO_BOTTOM+0.001], fillet=PCB_FILLET_RADIUS, 
 			       edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 		} else {
 			cube([PCB_WIDTH, PCB_HEIGHT, PLATE_TO_BOTTOM+0.001]);
@@ -47,8 +47,57 @@ module main_case() {
 	}
 }
 
+module support() {
+	difference() {
+		if (SUPPORT_FILLET) {
+			translate([SUPPORT_MARGIN, SUPPORT_MARGIN, 0])
+			cuboid([TOTAL_WIDTH-SUPPORT_MARGIN*2, TOTAL_HEIGHT-SUPPORT_MARGIN*2, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+KEYBOARD_OFFSET],
+				fillet=SUPPORT_FILLET_RADIUS,
+				edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
+		} else if (SUPPORT_CHAMFER) {
+			translate([SUPPORT_MARGIN, SUPPORT_MARGIN, 0])
+			cuboid([TOTAL_WIDTH-SUPPORT_MARGIN*2, TOTAL_HEIGHT-SUPPORT_MARGIN*2, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+KEYBOARD_OFFSET],
+				chamfer=SUPPORT_CHAMFER_AMMOUNT,
+				edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
+		} else {
+			translate([SUPPORT_MARGIN, SUPPORT_MARGIN, 0])
+			cuboid([TOTAL_WIDTH-SUPPORT_MARGIN*2, TOTAL_HEIGHT-SUPPORT_MARGIN*2, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+KEYBOARD_OFFSET], center=false, $fn=24);
+		}
+
+		translate([0, 0, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+KEYBOARD_OFFSET])
+		rotate(KEYBOARD_ANGLE, [-1, 0, 0])
+		translate([-0.001, -0.001])
+		cube([TOTAL_WIDTH+0.002, TOTAL_HEIGHT+0.002, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+20]);
+	}
+}
+
+module usb() {
+	if (USB_TURN) {
+		translate([USB_OFFSET_X, -USB_OFFSET_Y+USB_CUTOUT_WIDTH/2, WALL_THICKNESS])
+		translate([-0.001+WALL_THICKNESS*1.5, -USB_CUTOUT_WIDTH, 0])
+		rotate(90, [0, 0, 1])
+		cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);
+	} else {
+		translate([USB_OFFSET_X-USB_CUTOUT_WIDTH/2, -USB_OFFSET_Y, WALL_THICKNESS])
+		translate([0, -WALL_THICKNESS*1.5, 0])
+		cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);
+	}
+}
+
 module case() {
-	main_case();
+	union() {
+		translate([0, 0, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)-0.001+KEYBOARD_OFFSET])
+		rotate(KEYBOARD_ANGLE, [-1, 0, 0])
+		translate([PCB_WIDTH+WALL_THICKNESS, WALL_THICKNESS, 0])
+		rotate(180, [0, 0, 1])
+		difference () {
+			main_case();
+
+			usb();
+		}
+
+		support();
+	}
 }
 
 case();

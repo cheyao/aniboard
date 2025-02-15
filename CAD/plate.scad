@@ -5,6 +5,12 @@ include <BOSL/constants.scad>
 use <BOSL/shapes.scad>
 include <common.scad>
 
+TOTAL_INNER_HEIGHT = PCB_THICKNESS + PCB_TO_BOTTOM + 5;
+TOTAL_WIDTH = PCB_WIDTH + 2 * WALL_THICKNESS;
+TOTAL_HEIGHT = PCB_HEIGHT + 2 * WALL_THICKNESS;
+
+PLATE_TO_BOTTOM = PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS;
+
 // TODO: Acrylic for OLED
 
 module key_holes() {

@@ -21,8 +21,10 @@ KEYBOARD_ANGLE = 6;
 KEYBOARD_OFFSET = 0;
 
 // Width of the PCB
-//PCB_ROUNDED = false;
+PCB_ROUNDED = false;
 PCB_FILLET_RADIUS = 5;
+PCB_WIDTH = 355;
+PCB_HEIGHT = 120;
 
 // X and Y offset the the MIDDLE of the USB port from the TOP LEFT of the board
 USB_OFFSET_X = 354.97;
@@ -68,7 +70,7 @@ OLED_HEIGHT = 11.5;
 OLED_OFFSET_X = 300.9;
 OLED_OFFSET_Y = 4.56;
 
-// You prob wan't to leave it like this
+// You prob want to leave it like this
 TOP_EXTEND = 5;
 
 // 2.9 for low flex, 4 for high flex

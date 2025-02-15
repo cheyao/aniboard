@@ -24,8 +24,8 @@ module base() {
 		translate([-WALL_THICKNESS, -PCB_HEIGHT-WALL_THICKNESS, 0])
 		cuboid([PCB_WIDTH+WALL_THICKNESS*2, PCB_HEIGHT+WALL_THICKNESS*2, PLATE_THICKNESS], fillet=5, edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 
-		translate([0, 0, -0.001])
-		linear_extrude(height=PLATE_THICKNESS+0.002, convexity=50)
+		translate([0, 0, -0.002])
+		linear_extrude(height=PLATE_THICKNESS+0.004, convexity=60)
 		key_holes();
 	}
 }
@@ -76,8 +76,8 @@ module edge() {
 		cuboid([PCB_WIDTH+WALL_THICKNESS*2, PCB_HEIGHT+WALL_THICKNESS*2, TOP_EXTEND], fillet=5, edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 
 		translate([KEY_OFFSET_X, -KEY_OFFSET_Y, 0])
-		translate([0, 0, -0.001])
-		linear_extrude(height=TOP_EXTEND+0.002, convexity=50)
+		translate([0, 0, -0.002])
+		linear_extrude(height=TOP_EXTEND+0.004, convexity=50)
 		translate([-2, -KEYS_HEIGHT-2, 0])
 		square([KEYS_WIDTH-0.002+4, KEYS_HEIGHT+4], center=false);
 
@@ -97,7 +97,7 @@ module main_body() {
 	union() {
 		base();
 
-		translate([0, 0, PLATE_THICKNESS])
+		translate([0, 0, PLATE_THICKNESS-0.001])
 		edge();
 	}
 }

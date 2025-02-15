@@ -11,12 +11,12 @@ module main_body() {
 		cuboid([PCB_WIDTH+WALL_THICKNESS*2, PCB_HEIGHT+WALL_THICKNESS*2, WALL_THICKNESS+PLATE_TO_BOTTOM], 
 		       fillet=5, edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 
-		translate([0.5, -PCB_HEIGHT+0.5, WALL_THICKNESS])
+		translate([0.5, -PCB_HEIGHT+0.5, WALL_THICKNESS+0.001])
 		if (PCB_ROUNDED) {
-			cuboid([PCB_WIDTH+1, PCB_HEIGHT+1, PLATE_TO_BOTTOM+0.001], fillet=PCB_FILLET_RADIUS, 
+			cuboid([PCB_WIDTH+1, PCB_HEIGHT+1, PLATE_TO_BOTTOM+0.002], fillet=PCB_FILLET_RADIUS, 
 			       edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 		} else {
-			cube([PCB_WIDTH, PCB_HEIGHT, PLATE_TO_BOTTOM+0.001]);
+			cube([PCB_WIDTH, PCB_HEIGHT, PLATE_TO_BOTTOM+0.002]);
 		}
 	}
 }

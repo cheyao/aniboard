@@ -66,8 +66,8 @@ module support() {
 
 		translate([0, 0, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+KEYBOARD_OFFSET])
 		rotate(KEYBOARD_ANGLE, [-1, 0, 0])
-		translate([-0.001, -0.001])
-		cube([TOTAL_WIDTH+0.002, TOTAL_HEIGHT+0.002, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+20]);
+		translate([-0.001, -TOTAL_HEIGHT*11-0.001])
+		cube([TOTAL_WIDTH+0.002, TOTAL_HEIGHT*22+0.002*222, TOTAL_HEIGHT*sin(KEYBOARD_ANGLE)+20]);
 	}
 }
 

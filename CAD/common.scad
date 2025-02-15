@@ -23,8 +23,6 @@ KEYBOARD_OFFSET = 0;
 // Width of the PCB
 //PCB_ROUNDED = false;
 PCB_FILLET_RADIUS = 5;
-PCB_WIDTH = 355;
-PCB_HEIGHT = 120;
 
 // X and Y offset the the MIDDLE of the USB port from the TOP LEFT of the board
 USB_OFFSET_X = 354.97;
@@ -88,15 +86,4 @@ PCB_THICKNESS = 1.6;
 // Cutout size for USB
 USB_CUTOUT_WIDTH = 15;
 USB_CUTOUT_HEIGHT = 7;
-
-// --------------------------
-// Don't touch - Common calculated variables
-// --------------------------
-
-// From the top of the plate to the inner edge of the case
-TOTAL_INNER_HEIGHT = PCB_THICKNESS + PCB_TO_BOTTOM + 5;
-TOTAL_WIDTH = PCB_WIDTH + 2 * WALL_THICKNESS;
-TOTAL_HEIGHT = PCB_HEIGHT + 2 * WALL_THICKNESS;
-
-PLATE_TO_BOTTOM = PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS;
 

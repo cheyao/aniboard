@@ -49,14 +49,17 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW;
 rgb = RGB(pixel_pin=board.D28, num_pixels=4, animation_speed=1, animation_mode=AnimationModes.SWIRL, val_default=30, val_limit=40)
 keyboard.extensions.append(rgb)
 
-from kmk.modules.macros import Press, Release, Tap, Delay
 from kmk.modules.mouse_keys import MouseKeys
 keyboard.modules.append(MouseKeys())
 
 keyboard.keymap = [
     [
-        KC.ESC , KC.MUTE, KC.VOLD, KC.VOLU, KC.MPRV, KC.MSTP, KC.MNXT, KC.BRID, KC.BRIU, KC.NO  , KC.NO  , KC.NO  , KC.NO  , KC.DEL ,
-        KC.GRV , KC.N1  , KC.N2  , KC.N3  , KC.N4  , KC.N5  , KC.N6  , KC.N7  , KC.N8  , KC.N9  , KC.N0  , KC.MINS, KC.EQL , KC.BSPC,
+        KC.ESC , KC.MUTE, KC.VOLD, KC.VOLU, KC.MPRV, KC.MSTP, KC.MNXT, KC.BRID, KC.BRIU, KC.NO  , KC.NO  , KC.NO  , KC.NO  , KC.DEL , KC.NO  , KC.NO  , KC.NO  ,
+        KC.GRV , KC.N1  , KC.N2  , KC.N3  , KC.N4  , KC.N5  , KC.N6  , KC.N7  , KC.N8  , KC.N9  , KC.N0  , KC.MINS, KC.EQL , KC.BSPC, KC.NO  , KC.NO  , KC.NO  ,
+        KC.TAB , KC.Q   , KC.W   , KC.E   , KC.R   , KC.T   , KC.Y   , KC.U   , KC.I   , KC.O   , KC.P   , KC.LBRC, KC.RBTC, KC.BSLS, KC.NO  , KC.NO  , KC.NO  ,
+        KC.ESC , KC.A   , KC.S   , KC.D   , KC.F   , KC.G   , KC.H   , KC.J   , KC.K   , KC.L   , KC.SCLN, KC.QUOT, KC.ENT , KC.NO  , KC.NO  , KC.NO  , KC.NO  ,
+        KC.LSFT, KC.Z   , KC.X   , KC.C   , KC.V   , KC.B   , KC.N   , KC.M   , KC.COMM, KC.DOT , KC.SLSH, LC.NO  , KC.NO  , KC.RSFT, KC.NO  , KC.UP  , KC.NO  ,
+        TODO:  , KC.LALT, KC.LCMD, KC.LCTL, KC.NO  , KC.NO  , KC.SPC , KC.NO  , KC.NO  , KC.NO  , KC.RCTL, KC.RCMD, KC.NO  , KC.NO  , KC.LEFT, KC.DOWN, KC.RGHT, 
     ],
 ];
 

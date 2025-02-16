@@ -28,3 +28,5 @@ Mounting hole at 285x70mm
 - 1x 2.75u MX stabilizer
 - 1x 6.25u MX stabilizer
 Kit: https://divinikey.com/products/aeboards-staebies-v2-stabilizers
+
+- 1x Case ("./CAD/case.stl")

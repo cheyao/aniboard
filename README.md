@@ -30,3 +30,6 @@ Mounting hole at 285x70mm
 Kit: https://divinikey.com/products/aeboards-staebies-v2-stabilizers
 
 - 1x Case ("./CAD/case.stl")
+
+- 4x M3 Screws
+- 4x M3 Bolts

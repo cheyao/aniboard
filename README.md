@@ -18,10 +18,13 @@ Mounting hole at 285x70mm
 - 1x 100Ω 0805 resistor: https://www.digikey.fr/en/products/detail/te-connectivity-passive-product/CRG0805F100R/2380830
 - 2x 470Ω 0805 resistor: https://www.digikey.fr/en/products/detail/rohm-semiconductor/ESR10EZPJ471/1762822
 - 2x 4.7kΩ 0805 resistor: https://www.digikey.fr/en/products/detail/rohm-semiconductor/ESR10EZPJ472/1762823
-- 88x Cherry MX blue Switches: https://www.digikey.com/en/products/detail/cherry-americas-llc/MX1A-E1NW/20180
 - 1x 0.91" OLED SSD1306: https://www.digikey.fr/en/products/detail/midas-displays/MDOB128032GV-WI/25616500
 - 1x Rapberry Pi Pico: https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020
+
+- 88x Cherry MX blue Switches: https://www.digikey.com/en/products/detail/cherry-americas-llc/MX1A-E1NW/20180
+
 - 1x 2u MX stabilizor
 - 2x 2.25u MX stabilizer
 - 1x 2.75u MX stabilizer
 - 1x 6.25u MX stabilizer
+Kit: https://divinikey.com/products/aeboards-staebies-v2-stabilizers

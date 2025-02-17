@@ -1413,108 +1413,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "OLED:SSD1306"
 			(pin_names
 				(offset 1.016)
@@ -17131,7 +17029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 99.06 0)
 			(effects
 				(font
@@ -18203,7 +18101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 303.53 78.74 0)
 			(effects
 				(font
@@ -19061,7 +18959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 38.1 0)
 			(effects
 				(font
@@ -19806,7 +19704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 78.74 0)
 			(effects
 				(font
@@ -19967,7 +19865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 120.65 0)
 			(effects
 				(font
@@ -21029,7 +20927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 220.98 38.1 0)
 			(effects
 				(font
@@ -21255,7 +21153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 38.1 0)
 			(effects
 				(font
@@ -21343,7 +21241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -21575,7 +21473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -21731,7 +21629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -22320,7 +22218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 303.53 58.42 0)
 			(effects
 				(font
@@ -22476,7 +22374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 38.1 0)
 			(effects
 				(font
@@ -22634,7 +22532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -22992,7 +22890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 58.42 0)
 			(effects
 				(font
@@ -23145,7 +23043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -23233,7 +23131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 171.45 38.1 0)
 			(effects
 				(font
@@ -23744,7 +23642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -23900,7 +23798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -24062,7 +23960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 38.1 0)
 			(effects
 				(font
@@ -24150,7 +24048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 138.43 38.1 0)
 			(effects
 				(font
@@ -24304,7 +24202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 270.51 78.74 0)
 			(effects
 				(font
@@ -25638,7 +25536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 237.49 58.42 0)
 			(effects
 				(font
@@ -25795,7 +25693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 237.49 38.1 0)
 			(effects
 				(font
@@ -25951,7 +25849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 140.97 0)
 			(effects
 				(font
@@ -26039,7 +25937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 154.94 38.1 0)
 			(effects
 				(font
@@ -27038,7 +26936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -27266,7 +27164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 220.98 99.06 0)
 			(effects
 				(font
@@ -27624,7 +27522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -28137,7 +28035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 270.51 99.06 0)
 			(effects
 				(font
@@ -28503,7 +28401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 78.74 0)
 			(effects
 				(font
@@ -28661,7 +28559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 287.02 58.42 0)
 			(effects
 				(font
@@ -28749,7 +28647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 140.97 0)
 			(effects
 				(font
@@ -29553,7 +29451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -30387,7 +30285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 237.49 78.74 0)
 			(effects
 				(font
@@ -30608,7 +30506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -30903,7 +30801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -31270,7 +31168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 88.9 120.65 0)
 			(effects
 				(font
@@ -31562,7 +31460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 58.42 0)
 			(effects
 				(font
@@ -31718,7 +31616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -32019,7 +31917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -32175,7 +32073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -32671,7 +32569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -32903,7 +32801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 270.51 140.97 0)
 			(effects
 				(font
@@ -33622,7 +33520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -33710,7 +33608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -33798,7 +33696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 287.02 78.74 0)
 			(effects
 				(font
@@ -33954,7 +33852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 58.42 0)
 			(effects
 				(font
@@ -34042,7 +33940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -34198,7 +34096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 99.06 0)
 			(effects
 				(font
@@ -34286,7 +34184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 58.42 0)
 			(effects
 				(font
@@ -34581,7 +34479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 287.02 120.65 0)
 			(effects
 				(font
@@ -35135,7 +35033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 99.06 0)
 			(effects
 				(font
@@ -35915,7 +35813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 220.98 58.42 0)
 			(effects
 				(font
@@ -36040,72 +35938,6 @@
 			(project "aniboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 544.83 367.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99085f71-2c1e-4111-9543-9419c4a9f62a")
-		(property "Reference" "#PWR056"
-			(at 544.83 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 544.83 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 544.83 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 544.83 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 544.83 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d621911-9784-4c02-83c2-7f2af8e47735")
-		)
-		(instances
-			(project "aniboard"
-				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -36632,7 +36464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 78.74 0)
 			(effects
 				(font
@@ -36790,7 +36622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -37014,7 +36846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 287.02 99.06 0)
 			(effects
 				(font
@@ -37245,7 +37077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -37467,7 +37299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 140.97 0)
 			(effects
 				(font
@@ -37623,7 +37455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -37911,7 +37743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 120.65 0)
 			(effects
 				(font
@@ -38069,7 +37901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -38504,7 +38336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 140.97 0)
 			(effects
 				(font
@@ -39154,7 +38986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -39582,7 +39414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -39670,7 +39502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 270.51 58.42 0)
 			(effects
 				(font
@@ -39793,73 +39625,6 @@
 			(project "keyboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 544.83 364.49 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8e53f5-f8d2-4a78-86c7-ac8d84d517eb")
-		(property "Reference" "H1"
-			(at 547.37 361.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 547.37 364.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 544.83 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 544.83 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 544.83 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dce122d-6a5a-4947-bb53-a6ce9c8ee899")
-		)
-		(instances
-			(project ""
-				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -40033,7 +39798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -40259,7 +40024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -40417,7 +40182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -41217,7 +40982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -41575,7 +41340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 38.1 0)
 			(effects
 				(font
@@ -41940,7 +41705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -42304,7 +42069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 138.43 78.74 0)
 			(effects
 				(font
@@ -42814,7 +42579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 120.65 0)
 			(effects
 				(font
@@ -43532,7 +43297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -43759,7 +43524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 303.53 140.97 0)
 			(effects
 				(font
@@ -44407,7 +44172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 303.53 99.06 0)
 			(effects
 				(font
@@ -44495,7 +44260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -44651,7 +44416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -44943,7 +44708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 220.98 140.97 0)
 			(effects
 				(font
@@ -45105,7 +44870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -45404,7 +45169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 105.41 78.74 0)
 			(effects
 				(font
@@ -46185,7 +45950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 187.96 140.97 0)
 			(effects
 				(font
@@ -46408,7 +46173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 39.37 120.65 0)
 			(effects
 				(font
@@ -47050,7 +46815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 254 99.06 0)
 			(effects
 				(font
@@ -47481,7 +47246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -47843,7 +47608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 204.47 120.65 0)
 			(effects
 				(font
@@ -47931,7 +47696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -48503,7 +48268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering"
+		(property "Footprint" "Library:D_MiniMELF_Handsoldering"
 			(at 105.41 58.42 0)
 			(effects
 				(font

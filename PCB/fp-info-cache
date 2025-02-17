@@ -1,4 +1,4 @@
-25237841074318669
+25267815435397222
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65813,6 +65813,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+D_MiniMELF_Handsoldering
+Diode Mini-MELF (SOD-80) Handsoldering
+Diode Mini-MELF (SOD-80) Handsoldering
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70567,6 +70574,13 @@ usb usb-c 2.0 pd
 20
 17
 PCM_marbastlib-various
+XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical
+XUNPU FPC connector, 20 bottom-side contacts, 0.5mm pitch, SMT, https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206301715_XUNPU-FPC-0-5AD-20PB_C3446061.pdf
+XUNPU  fpc FPC-0.5AL vertical
+0
+22
+21
+PCM_marbastlib-various
 XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal
 XUNPU FPC connector, 16 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
 XUNPU  fpc FPC-05F-16PH20
@@ -70770,6 +70784,13 @@ Footprint for Kailh Choc style switches
 0
 0
 PCM_marbastlib-xp-choc
+SW_PG1316S
+Footprint for Kailh PG1316S low profile switch
+Kailh PG1316 Switch
+0
+6
+3
+PCM_marbastlib-xp-choc
 SW_choc_MxCombo_1u
 Combined footprint for Kailh Choc and Cherry MX style switches
 
@@ -70965,6 +70986,118 @@ Hotswap footprint for Gateron KS33 switches
 0
 6
 2
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1.5u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1.25u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1.75u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1.75u_STP_1.5
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1.75u_STP_1.25
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_0deg_1u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1.5u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1.25u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1.75u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1.75u_STP_1.5
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1.75u_STP_1.25
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_90deg_1u
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_180deg_1.75u_STP_1.5
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_180deg_1.75u_STP_1.25
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_270deg_1.75u_STP_1.5
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
+PCM_marbastlib-xp-he
+SW_MX_HE_270deg_1.75u_STP_1.25
+Footprint for Cherry MX style hall effect switches (Gateron Jade) and A110x/MT910xET/HAL9303SO pinout compatible sensors
+cherry mx switch hall effect he 
+0
+4
+3
 PCM_marbastlib-xp-hitek
 SW_HiTek_Mount_1.5u
 Footprint for Hi-Tek Series 725 ("Space Invader") Switches
@@ -71053,13 +71186,6 @@ PCM_marbastlib-xp-mx
 PLATE_MX
 Break-out tabs for switch and plate multi-purpose-PCBs cherry MX footprints)
 cherry mx pcb plate break
-0
-0
-0
-PCM_marbastlib-xp-mx
-S
-
-
 0
 0
 0
@@ -72050,13 +72176,6 @@ usb usb-c 2.0 pd
 0
 20
 17
-PCM_marbastlib-xp-various
-XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical
-XUNPU FPC connector, 20 bottom-side contacts, 0.5mm pitch, SMT, https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206301715_XUNPU-FPC-0-5AD-20PB_C3446061.pdf
-XUNPU  fpc FPC-0.5AL vertical
-0
-22
-21
 PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna

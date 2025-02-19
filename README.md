@@ -21,6 +21,10 @@ Mounting hole at 285x70mm
 - 1x 0.91" OLED SSD1306: https://www.digikey.fr/en/products/detail/midas-displays/MDOB128032GV-WI/25616500
 - 1x Rapberry Pi Pico: https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020
 
+- 2x F Type USB C USB4135 Receptacles: https://www.digikey.fr/en/products/detail/gct/USB4135-GF-A/16036137
+- 4x 5.1k 0805 SMD Resistors: https://www.digikey.fr/en/products/detail/yageo/RC0805FR-075K1L/727988
+- 2x TPS259472ARPW by TI: https://www.digikey.fr/en/products/detail/texas-instruments/TPS259472ARPWR/14124020
+
 - 88x Cherry MX blue Switches: https://www.digikey.com/en/products/detail/cherry-americas-llc/MX1A-E1NW/20180
 
 - 1x 2u MX stabilizor
@@ -33,3 +37,5 @@ Kit: https://divinikey.com/products/aeboards-staebies-v2-stabilizers
 
 - 4x M3 Screws
 - 4x M3 Bolts
+
+- a set of caps, neopixels, usb connectors, pico and the power muc and a fan to use as a heater pls!

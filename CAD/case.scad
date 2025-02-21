@@ -94,6 +94,16 @@ module case() {
 			main_case();
 
 			usb();
+
+			translate([0, -27.805+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
+			translate([-0.001+WALL_THICKNESS*1.5, -USB_CUTOUT_WIDTH, 0])
+			rotate(90, [0, 0, 1])
+			cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);
+
+			translate([0, -78.095+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
+			translate([-0.001+WALL_THICKNESS*1.5, -USB_CUTOUT_WIDTH, 0])
+			rotate(90, [0, 0, 1])
+			cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);
 		}
 
 		support();

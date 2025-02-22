@@ -37,8 +37,8 @@ The PCB's size is 355x120mm
 
 3D render pictures:
 
-![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/4image.png)
-![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/5image.png)
+![](https://cloud-oeefxhuld-hack-club-bot.vercel.app/0image.png)
+![](https://cloud-kce8onab7-hack-club-bot.vercel.app/0image.png)
 ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/6image.png)
 ![](https://cloud-5pcsstpbq-hack-club-bot.vercel.app/0image.png)
 
@@ -84,17 +84,18 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | Case (white "./production/case.stl") | 1 | Hack Club |
 | Plate (white "./production/case.stl")| 1 | Hack Club |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
-| M3 Heatset inserts               | 4   | 2.11        |
-| M3 Bolts                         | 4   | 2.42        |
+| M3 Heatset inserts               | 6   | 2.11        |
+| M3 14mm Bolts                    | 6   | 2.42        |
 
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other   |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | ------- |
-| ~118.23/ws  | 35.00/ws | 36.60/ws | 4.53/ns   | ???     | 21.39/ns    | 35.5/ns |
+| 156.83/ws   | 35.00/ws | 36.60/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 35.5/ns |
 
 The stabs are 22.38 USD so going to transfer 5$ to HQ.
 
 Cupid: https://keygem.com/products/cupid-switch-group-buy-10pcs?variant=44806087770380
 
 ## Notes:
+
 This got me 60h on cafe :sob:
 

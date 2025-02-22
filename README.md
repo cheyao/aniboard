@@ -18,6 +18,7 @@ Features:
 - Employes metal electrode leadless face technology to ensure high-reliability and precision with predictable characteristics
 - High accuracy, long-term stability, moisture resistance, high-temperature resistance
 - Made with precise Hot Air solder reflow technology
+- KMK firmware, live edit your keymaps
 
 ## PCB 
 

@@ -16,7 +16,7 @@ module main_body() {
 			cuboid([PCB_WIDTH+1, PCB_HEIGHT+1, PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS+0.002], fillet=PCB_FILLET_RADIUS, 
 			       edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 		} else {
-			cube([PCB_WIDTH, PCB_HEIGHT, PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS+0.002]);
+			cube([PCB_WIDTH+1, PCB_HEIGHT+1, PCB_TO_BOTTOM + 1.6 + 5 - PLATE_THICKNESS+0.002]);
 		}
 	}
 }

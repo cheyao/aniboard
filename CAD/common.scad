@@ -75,7 +75,7 @@ TOP_EXTEND = 5;
 
 // 2.9 for low flex, 4 for high flex
 // distance from the bottom of the PCB to the case
-PCB_TO_BOTTOM = 3.2;
+PCB_TO_BOTTOM = 4.1;
 
 // --------------------------
 // Advanced area

@@ -1,10 +1,46 @@
-# Aniboard
+# Aniboard - Anime themed keyboard
 
-The keyboard PCB is 355x120mm
+*Insert Final Product Picture*
 
-Key offset: 4.119x4.015mm
+Made by cyao: `@Cyao` on slack, github.com/cheyao
 
-Mounting hole at 285x70mm
+Features:
+- 88x keys!
+- Morally correct Alt, Command, Control layout
+- 0.91" OLED for your favourite pictures
+- 88x Neopixels capable of eating 5.28A! Portable hand warmer :3
+- Optional triple USB power input to feed all the hungry neopixels.
+- Cute anime silkscreens! (Open PCB in KiCAD and zoom out to find a easter egg :3)
+- Adaptive power MUXing and overcurrent fail safes
+- Multiple fail safes, optional solder bridge configs
+- Super compact design
+- Self define tilt (Go edit in `CAD/constants.scad` and regenerate)
+- Employes metal electrode leadless face technology to ensure high-reliability and precision with predictable characteristics
+- High accuracy, long-term stability, moisture resistance, high-temperature resistance
+- Made with precise Hot Air solder reflow technology
+
+## PCB 
+
+The PCB's size is 355x120mm
+
+| Schematic | Front | Back |
+| - | - | - |
+| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/1image.png) | ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/2image.png) | ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/3image.png) |
+
+3D render pictures:
+
+![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/4image.png)
+![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/5image.png)
+![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/6image.png)
+![](https://cloud-5pcsstpbq-hack-club-bot.vercel.app/0image.png)
+
+## Case
+
+![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/0image.png)
+
+The case is fully parametric and made with OpenSCAD, allowed me to make a online case generator. Link after the YSWS ends.
+
+I chose to not add any engraving since it will look bad. I would want to print my case In school with ams and custom colored fillament when I buy some new fillament. (I need hq to print my case in white for the moment)
 
 ## BOM
 
@@ -37,17 +73,19 @@ Mounting hole at 285x70mm
 | F Type USB C USB4135 Receptacles | 2   | 1.65        |
 | SN74LVC1T45DBVR                  | 1   | 2.65        |
 | TPS259470ARPWR                   | 4   | 4.08        |
-| Case (white, "./CAD/case.stl")   | 1   | Hack Club   |
+| Case (white "./CAD/case.stl")    | 1   | Hack Club   |
 | Plate (white "./CAD/case.stl")   | 1   | Hack Club   |
 | M3 Heatset inserts               | 4   | 2.11        |
 | M3 Bolts                         | 4   | 2.42        |
 
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other   |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | ------- |
-| ~118.23 /ws | 35.00/ws | 36.60/ws | 4.53/ns   | ???     | 21.39/ns    | 35.5/ns |
+| ~118.23/ws  | 35.00/ws | 36.60/ws | 4.53/ns   | ???     | 21.39/ns    | 35.5/ns |
 
 The stabs are 22.38 USD so going to transfer 5$ to HQ.
 
-Jades: https://fr.aliexpress.com/item/32879369291.html?gatewayAdapt=glo2fra
 Cupid: https://keygem.com/products/cupid-switch-group-buy-10pcs?variant=44806087770380
+
+## Notes:
+This got me 60h on cafe :sob:
 

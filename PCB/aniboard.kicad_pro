@@ -495,7 +495,7 @@
       "plot": "/home/cyao/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "aniboard.step",
+      "step": "../CAD/aniboard.step",
       "svg": "/home/cyao/Downloads/",
       "vrml": ""
     },

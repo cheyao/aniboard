@@ -127,6 +127,12 @@ module plate() {
 		translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
 		insert();
 
+		translate([PCB_WIDTH/2, WALL_THICKNESS/2-0.5, -0.001])
+		insert();
+
+		translate([PCB_WIDTH/2, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
+		insert();
+
 		oled_hole();
 	}
 }

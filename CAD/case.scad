@@ -44,6 +44,12 @@ module main_case() {
 
 		translate([PCB_WIDTH+WALL_THICKNESS/2-0.5, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
 		screw_hole();
+
+		translate([PCB_WIDTH/2, WALL_THICKNESS/2-0.5, -0.001])
+		screw_hole();
+
+		translate([PCB_WIDTH/2, -WALL_THICKNESS/2+0.5-PCB_HEIGHT, -0.001])
+		screw_hole();
 	}
 }
 
@@ -95,12 +101,12 @@ module case() {
 
 			usb();
 
-			translate([0, -27.805+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
+			translate([0, -32.795+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
 			translate([-0.001+WALL_THICKNESS*1.5, -USB_CUTOUT_WIDTH, 0])
 			rotate(90, [0, 0, 1])
 			cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);
 
-			translate([0, -78.095+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
+			translate([0, -83.085+USB_CUTOUT_WIDTH/2, WALL_THICKNESS+0.1])
 			translate([-0.001+WALL_THICKNESS*1.5, -USB_CUTOUT_WIDTH, 0])
 			rotate(90, [0, 0, 1])
 			cube([USB_CUTOUT_WIDTH, WALL_THICKNESS*4, USB_CUTOUT_HEIGHT]);

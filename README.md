@@ -23,9 +23,17 @@ Features:
 
 The PCB's size is 355x120mm
 
-| Schematic | Front | Back |
-| - | - | - |
-| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/1image.png) | ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/2image.png) | ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/3image.png) |
+| Schematic |
+| - |
+| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/1image.png) |
+
+| Front |
+| - |
+| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/2image.png) |
+
+| Back |
+| - |
+| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/3image.png) |
 
 3D render pictures:
 
@@ -73,8 +81,9 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | F Type USB C USB4135 Receptacles | 2   | 1.65        |
 | SN74LVC1T45DBVR                  | 1   | 2.65        |
 | TPS259470ARPWR                   | 4   | 4.08        |
-| Case (white "./CAD/case.stl")    | 1   | Hack Club   |
-| Plate (white "./CAD/case.stl")   | 1   | Hack Club   |
+| Case (white "./production/case.stl") | 1 | Hack Club |
+| Plate (white "./production/case.stl")| 1 | Hack Club |
+| Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
 | M3 Heatset inserts               | 4   | 2.11        |
 | M3 Bolts                         | 4   | 2.42        |
 

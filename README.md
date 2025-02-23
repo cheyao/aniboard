@@ -63,7 +63,7 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | SK6812MINI-E                     | 88  | 10.99/100pc |
 | MiniMELF diodes                  | 88  | 00.73/100pc |
 | 0603 GLED Vf2.1 30mA             | 6   | 0.49        |
-| 400pF 0402 capacitor             | 4   | 3.49 c      |
+| 390pF 0402 capacitor             | 4   | 3.49 c      |
 | 10nF 0402 capacitor              | 4   | c           |
 | 0.1uf 0805 capacitors            | 90  | 1.20        |
 | 0.1uf 0402 capacitors            | 4   | c           |
@@ -88,11 +88,17 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | M3 Heatset inserts               | 6   | 2.11        |
 | M3 14mm Bolts                    | 6   | 2.42        |
 
-| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other   |
-| ----------- | -------- | -------- | --------- | ------- | ----------- | ------- |
-| 156.83/ws   | 35.00/ws | 36.60/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 35.5/ns |
+w/Aliexpress
+| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
+| ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
+| 159.04/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 35.5/ns  |
 
-The stabs are 22.38 USD so going to transfer 5$ to HQ.
+w/LCSC
+| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
+| ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
+| 117.66/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 30.74/ws |
+
+~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
 
 Cupid: https://keygem.com/products/cupid-switch-group-buy-10pcs?variant=44806087770380
 

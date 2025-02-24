@@ -56,7 +56,7 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | Name                             | Qty | Price (EUR) |
 | -------------------------------- | --- | ----------- |
 | JWK Cupid Switch                 | 88  | 36.60/w ship|
-| 2u MX stabilizor                 | 1   | 21.39       |
+| 2u MX stabilizor                 | 1   | 27.99       |
 | 2.25u MX stabilizer              | 2   | ^           |
 | 2.75u MX stabilizer              | 2   | ^           |
 | 6.25u MX stabilizer              | 1   | ^           |
@@ -91,14 +91,16 @@ I chose to not add any engraving since it will look bad. I would want to print m
 w/Aliexpress
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 159.04/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 35.5/ns  |
+| 164.64/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 35.5/ns  |
 
 w/LCSC
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 117.66/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 21.39/ns    | 30.74/ws |
+| 123.26/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 30.74/ws |
 
 ~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
+
+~Uhh I think the TX are still over budget? Gonna figure something out.~ Found in budget TX!
 
 Cupid: https://keygem.com/products/cupid-switch-group-buy-10pcs?variant=44806087770380
 

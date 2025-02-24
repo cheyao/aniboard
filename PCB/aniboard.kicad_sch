@@ -23284,7 +23284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
 			(at 248.92 53.34 0)
 			(effects
 				(font
@@ -36792,7 +36792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
 			(at 248.92 93.98 0)
 			(effects
 				(font
@@ -41735,7 +41735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.75u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
 			(at 248.92 115.57 0)
 			(effects
 				(font
@@ -43420,7 +43420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
 			(at 34.29 115.57 0)
 			(effects
 				(font

@@ -53,6 +53,8 @@ I chose to not add any engraving since it will look bad. I would want to print m
 
 ## BOM
 
+These were old prices for aliexpress, see bottom for lcsc prices (better)
+
 | Name                             | Qty | Price (EUR) |
 | -------------------------------- | --- | ----------- |
 | JWK Cupid Switch                 | 88  | 36.60/w ship|
@@ -60,28 +62,20 @@ I chose to not add any engraving since it will look bad. I would want to print m
 | 2.25u MX stabilizer              | 2   | ^           |
 | 2.75u MX stabilizer              | 2   | ^           |
 | 6.25u MX stabilizer              | 1   | ^           |
-| SK6812MINI-E                     | 88  | 10.99/100pc |
-| MiniMELF diodes                  | 88  | 00.73/100pc |
-| 0603 GLED Vf2.1 30mA             | 6   | 0.49        |
-| 390pF 0402 capacitor             | 4   | 3.49 c      |
-| 10nF 0402 capacitor              | 4   | c           |
-| 0.1uf 0805 capacitors            | 90  | 1.20        |
-| 0.1uf 0402 capacitors            | 4   | c           |
-| 1uf 0805 capacitor (0402 sub)    | 1   | c           |
-| 4.7uf capacitors                 | 3   | c           |
-| 220Ω 0805 resistor               | 4   | 1.47 a      |
-| 470Ω 0805 resistor               | 3   | a           |
-| 4.7kΩ 0805 resistor              | 2   | a           |
-| 4.7kΩ 0402 resistor              | 8   | 2.84 b      |
-| 5.1kΩ 0805 resistor              | 4   | a           |
-| 1kΩ 0402 resistor                | 4   | b           |
-| 10kΩ 0402 resistor               | 10  | b           |
-| 100kΩ 0402 resistor              | 4   | b           |
 | 0.91" OLED SSD1306               | 1   | 1.75        |
-| Orph/Raspberry Pi Pico           | 1   | High Seas   |
+| 0.1uf 0805 capacitors            | 92  | 1.20        |
+| 4.7uf 0805 capacitors            | 3   | c           |
+| 1uf   0805 capacitor             | 1   | c           |
+| MiniMELF diodes                  | 88  | 00.73/100pc |
+| 0603 GLED Vf2.1 30mA             | 4   | 0.49        |
 | F Type USB C USB4135 Receptacles | 2   | 1.65        |
+| SK6812MINI-E                     | 88  | 10.99/100pc |
+| 470Ω 0805 resistor               | 5   | a           |
+| 4.7kΩ 0805 resistor              | 4   | a           |
+| 5.1kΩ 0805 resistor              | 4   | a           |
+| TPS2116DRL                       | 2   | 4.08        |
 | SN74LVC1T45DBVR                  | 1   | 2.65        |
-| TPS259470ARPWR                   | 4   | 4.08        |
+| Orph/Raspberry Pi Pico           | 1   | High Seas   |
 | Case (white "./production/case.stl") | 1 | Hack Club |
 | Plate (white "./production/case.stl")| 1 | Hack Club |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |

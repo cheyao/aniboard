@@ -92,7 +92,7 @@ w/Aliexpress
 w/LCSC
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 107.57/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 15.05/ws |
+| 115.50/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 22.98/ws |
 
 ~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
 

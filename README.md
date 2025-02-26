@@ -82,6 +82,8 @@ These were old prices for aliexpress, see bottom for lcsc prices (better)
 | M3 Heatset inserts               | 6   | 2.11        |
 | M3 14mm Bolts                    | 6   | 2.42        |
 
+Old:
+
 w/Aliexpress
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
@@ -90,7 +92,7 @@ w/Aliexpress
 w/LCSC
 | Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
 | ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 123.26/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 30.74/ws |
+| 107.57/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 15.05/ws |
 
 ~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
 

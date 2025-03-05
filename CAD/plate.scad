@@ -5,8 +5,6 @@ include <BOSL/constants.scad>
 use <BOSL/shapes.scad>
 include <common.scad>
 
-// TODO: Acrylic for OLED
-
 module key_holes() {
 	translate([KEY_OFFSET_X, -KEY_OFFSET_Y, 0])
 	difference() {
@@ -24,14 +22,14 @@ module base() {
 		translate([-WALL_THICKNESS, -PCB_HEIGHT-WALL_THICKNESS, 0])
 		cuboid([PCB_WIDTH+WALL_THICKNESS*2, PCB_HEIGHT+WALL_THICKNESS*2, PLATE_THICKNESS], fillet=5, edges=EDGE_FR_RT+EDGE_BK_RT+EDGE_FR_LF+EDGE_BK_LF, center=false, $fn=24);
 
-		translate([0, 0, -0.002])
-		linear_extrude(height=PLATE_THICKNESS+0.004, convexity=60)
-		key_holes();
+		// translate([0, 0, -0.002])
+		// linear_extrude(height=PLATE_THICKNESS+0.004, convexity=60)
+		// key_holes();
 	}
 }
 
 module chamfer() {
-	translate([0, -(PCB_HEIGHT + 2 * WALL_THICKNESS)+WALL_THICKNESS, TOP_EXTEND+PLATE_THICKNESS-CHAMFER_AMMOUNT])
+	translate([0, -(PCB_HEIGHT + 2*WALL_THICKNESS)+WALL_THICKNESS, TOP_EXTEND+PLATE_THICKNESS-CHAMFER_AMMOUNT])
 	rotate(CHAMFER_ANGLE, [1, 0, 0])
 	translate([-WALL_THICKNESS-25, -40, 0])
 	cube([(PCB_WIDTH + 2 * WALL_THICKNESS) + 50, 80, 10]);
@@ -137,5 +135,9 @@ module plate() {
 	}
 }
 
-plate();
+translate([10, -10, PLATE_THICKNESS])
+interior_fillet(TOP_EXTEND+0.001, 5, orient=ORIENT_Z, align=V_UP);
 
+//plate();
+
+		edge();

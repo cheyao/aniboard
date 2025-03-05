@@ -79,8 +79,8 @@ These were old prices for aliexpress, see bottom for lcsc prices (better)
 | Case (white "./production/case.stl") | 1 | Hack Club |
 | Plate (white "./production/case.stl")| 1 | Hack Club |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
-| M3 Heatset inserts               | 6   | 2.11        |
-| M3 14mm Bolts                    | 6   | 2.42        |
+| M2 Heatset Inserts 4OD 4mm       | 6   | 2.11        |
+| M2 Torx Thin Head Bolts 5mm      | 6   | 2.42        |
 
 Old:
 

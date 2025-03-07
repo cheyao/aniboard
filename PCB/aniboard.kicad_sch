@@ -379,6 +379,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_24P"
 			(pin_names
 				(offset 1.016)
@@ -5224,6 +5331,12 @@
 		(uuid "169b0fc2-06a8-40ce-bb88-dbf5181cc507")
 	)
 	(junction
+		(at 599.44 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "171e030f-6af8-4883-9796-7055fd85c054")
+	)
+	(junction
 		(at 336.55 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7486,6 +7599,12 @@
 		(uuid "d0ba2974-c1c5-4a15-bc7f-df53b3727d52")
 	)
 	(junction
+		(at 599.44 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26dc643-90b0-4bad-80ea-efe3394ce16f")
+	)
+	(junction
 		(at 287.02 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7900,6 +8019,12 @@
 		(uuid "f7490df4-47cb-4643-9ed4-fb9de65fccb1")
 	)
 	(junction
+		(at 450.85 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f750930d-7d8a-4cee-b151-2b2d3c64914b")
+	)
+	(junction
 		(at 344.17 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8170,6 +8295,16 @@
 			(type default)
 		)
 		(uuid "059746e1-2e39-4c71-9105-47c1cba86e09")
+	)
+	(wire
+		(pts
+			(xy 599.44 91.44) (xy 610.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c8076f-6e12-4bd9-86cf-fb8c3758b4a1")
 	)
 	(wire
 		(pts
@@ -17403,6 +17538,16 @@
 	)
 	(wire
 		(pts
+			(xy 599.44 40.64) (xy 609.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70de599-7001-481d-9229-f8b43a510000")
+	)
+	(wire
+		(pts
 			(xy 344.17 95.25) (xy 336.55 95.25)
 		)
 		(stroke
@@ -17433,7 +17578,7 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 91.44) (xy 610.87 91.44)
+			(xy 596.9 91.44) (xy 599.44 91.44)
 		)
 		(stroke
 			(width 0)
@@ -17533,7 +17678,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 40.64) (xy 609.6 40.64)
+			(xy 594.36 40.64) (xy 599.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -19172,6 +19317,73 @@
 			(project "aniboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 450.85 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ee383d-42a8-4eb3-bf2b-0df8b5a1d8be")
+		(property "Reference" "TP1"
+			(at 453.39 170.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 453.39 173.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 455.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 455.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 450.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "661f7d39-2bf5-4880-8a2b-f4241d2ebddc")
+		)
+		(instances
+			(project ""
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -24115,6 +24327,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 504.19 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2084b5c2-f204-4c0d-8407-ebcdbaf9423c")
+		(property "Reference" "#PWR075"
+			(at 504.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 504.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 504.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63a125b-2315-4985-a0a0-be1b669aa1a4")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 220.98 38.1 90)
 		(unit 1)
@@ -24490,6 +24768,72 @@
 			(project "keyboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 487.68 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2214be69-848e-4d87-8728-2703902130da")
+		(property "Reference" "#PWR074"
+			(at 487.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 487.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 487.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 487.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 487.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f40c1f-f3f8-4812-9243-bd4762166844")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -29082,6 +29426,73 @@
 			(project "aniboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 487.68 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4318ae1e-df2f-4363-b984-d3e29ad8af0c")
+		(property "Reference" "TP4"
+			(at 490.22 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 490.22 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 492.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 492.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 487.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c70f43-bb06-4427-8507-8dc4a2a15b26")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -34351,6 +34762,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 504.19 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d718eb3-553d-4a5b-b2a2-c5c4c475d14a")
+		(property "Reference" "TP5"
+			(at 506.73 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 506.73 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 509.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 509.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 504.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c950db77-1b7a-41c4-b191-2d5a5bd6438a")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 229.87 321.31 0)
 		(mirror y)
@@ -36319,6 +36797,72 @@
 			(project "keyboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 519.43 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cf5f261-4620-49fd-aa8b-2fe9caaf085d")
+		(property "Reference" "#PWR076"
+			(at 519.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 519.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3dccf4-072a-498b-963b-8a70d4720192")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -49679,6 +50223,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 519.43 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7393336-c3a3-4bfb-9811-5ed4ee301700")
+		(property "Reference" "TP6"
+			(at 521.97 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 521.97 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 524.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba5d7ff0-ba6e-4b45-adaa-41de6a72897a")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 267.97 255.27 0)
 		(mirror y)
@@ -52830,6 +53441,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 599.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe3c7a4-f90f-42ca-8b09-8e92e3f45849")
+		(property "Reference" "TP3"
+			(at 601.98 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 601.98 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 604.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 604.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 599.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3c97bf8-75b2-405e-b077-0da25c3233dd")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 204.47 120.65 90)
 		(unit 1)
@@ -52912,6 +53590,73 @@
 			(project "keyboard"
 				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
 					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 599.44 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3ad49d-ab45-4f30-a7c7-92b437ce29c9")
+		(property "Reference" "TP2"
+			(at 601.98 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 601.98 38.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 604.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 604.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 599.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f667466-2461-4c1c-abb2-fda436e43ba2")
+		)
+		(instances
+			(project "aniboard"
+				(path "/6f5b1aad-42fe-4f04-a72c-874b46a1a48f"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

@@ -45,9 +45,11 @@ The PCB's size is 355x120mm
 
 ## Case
 
-![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/0image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9c0b47d453868a2126a5fb956b4d0c169e8a88f4_image.png)
 
-The case is fully parametric and made with OpenSCAD, allowed me to make a online case generator. Link after the YSWS ends.
+The case v1 is fully parametric and made with OpenSCAD, allowed me to make a online case generator. Link after the YSWS ends.
+
+V2 is made with freecad, and is of top mount style.
 
 I chose to not add any engraving since it will look bad. I would want to print my case In school with ams and custom colored fillament when I buy some new fillament. (I need hq to print my case in white for the moment)
 
@@ -76,23 +78,19 @@ These were old prices for aliexpress, see bottom for lcsc prices (better)
 | TPS2116DRL                       | 2   | 4.08        |
 | SN74LVC1T45DBVR                  | 1   | 2.65        |
 | Orph/Raspberry Pi Pico           | 1   | High Seas   |
-| Case (white "./production/case.stl") | 1 | Hack Club |
-| Plate (white "./production/case.stl")| 1 | Hack Club |
+| Top (Preferably pink, else white "./production/top.stl") | 1 | Hack Club |
+| Bot (Preferably pink, else white "./production/bottom.stl") | 1 | Hack Club |
+| Plate (Preferably transparent, else white "./production/plate.stl")| 1 | Hack Club |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
-| M2 Heatset Inserts 4OD 4mm       | 6   | 2.11        |
-| M2 Torx Thin Head Bolts 5mm      | 6   | 2.42        |
+| M2 Heatset Inserts 4OD 4mm       | 24  | 1.80        |
+| M2 Torx Thin Head Bolts 5mm      | 12  | 1.63        |
+| M2 Torx Thin Head Bolts 5mm      | 12  | 2.30        |
 
 Old:
 
-w/Aliexpress
-| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
-| ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 164.64/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 35.5/ns  |
-
-w/LCSC
-| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other    |
-| ----------- | -------- | -------- | --------- | ------- | ----------- | -------- |
-| 115.50/ws   | 35.00/ws | 38.81/ws | 4.53/ns   | 22/ns   | 26.67/ns    | 22.98/ws |
+| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other     |
+| ----------- | -------- | -------- | --------- | ------- | ----------- | --------- |
+| ~120.00/ws  | 35.00/ws | 38.81/ws | 5.72/ns   | TODO    | 26.67/ns    | ~22.98/ws |
 
 ~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
 

@@ -26,15 +26,19 @@ The PCB's size is 355x120mm
 
 | Schematic |
 | - |
-| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/1image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09d90ffa24aed77b1ae56afef70530dee7fdacdb_image.png) |
+
+| Two sides |
+| - |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2ae59847a65c4f448d295430f29034cd0e29b193_image.png) |
 
 | Front |
 | - |
-| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/2image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1ebfd98ae70e31802d3d6c18383500e4204dd31c_image.png) |
 
 | Back |
 | - |
-| ![](https://cloud-mvfukuv6n-hack-club-bot.vercel.app/3image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09d90ffa24aed77b1ae56afef70530dee7fdacdb_image.png) |
 
 3D render pictures:
 

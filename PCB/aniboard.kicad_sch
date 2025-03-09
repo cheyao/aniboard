@@ -6,8 +6,8 @@
 	(paper "A1")
 	(title_block
 		(title "Aniboard")
-		(date "2025-02-02")
-		(rev "v1.0")
+		(date "2025-03-09")
+		(rev "v3.0")
 		(company "Cyao")
 		(comment 1 "https://github.com/cheyao/aniboard")
 	)

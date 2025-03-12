@@ -26,19 +26,19 @@ The PCB's size is 355x120mm
 
 | Schematic |
 | - |
-| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09d90ffa24aed77b1ae56afef70530dee7fdacdb_image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7086031d2e1673942ba96f7d15b3926c1fe56514_image.png) |
 
 | Two sides |
 | - |
-| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2ae59847a65c4f448d295430f29034cd0e29b193_image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/719b5b19e3c723a87c6afca3c2e19ae891ebd4b1_image.png) |
 
 | Front |
 | - |
-| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1ebfd98ae70e31802d3d6c18383500e4204dd31c_image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b40619f6595407ab66a610c5e2f9a224efed5149_image.png) |
 
 | Back |
 | - |
-| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09d90ffa24aed77b1ae56afef70530dee7fdacdb_image.png) |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/42cc6e4673064bc51a2fabf5e8a4c8ca744c256b_image.png) |
 
 3D render pictures:
 
@@ -49,7 +49,7 @@ The PCB's size is 355x120mm
 
 ## Case
 
-![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9c0b47d453868a2126a5fb956b4d0c169e8a88f4_image.png)
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7c8fa4735b76d297e6a9e97e1f1f4ab40246be63_image.png)
 
 The case v1 is fully parametric and made with OpenSCAD, allowed me to make a online case generator. Link after the YSWS ends.
 

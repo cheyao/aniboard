@@ -82,9 +82,7 @@ These were old prices for aliexpress, see bottom for lcsc prices (better)
 | TPS2116DRL                       | 2   | 4.08        |
 | SN74LVC1T45DBVR                  | 1   | 2.65        |
 | Orph/Raspberry Pi Pico           | 1   | High Seas   |
-| Top (Preferably pink, else white "./production/top.stl") | 1 | Hack Club |
-| Bot (Preferably pink, else white "./production/bottom.stl") | 1 | Hack Club |
-| Plate (Preferably transparent, else white "./production/plate.stl")| 1 | Hack Club |
+| Case (Preferably pink, else white "./production/case.3mf") | 1 | Me |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
 | M2 Heatset Inserts 4OD 4mm       | 24  | 1.80        |
 | M2 Torx Thin Head Bolts 5mm      | 12  | 1.63        |

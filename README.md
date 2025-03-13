@@ -63,40 +63,47 @@ These were old prices for aliexpress, see bottom for lcsc prices (better)
 
 | Name                             | Qty | Price (EUR) |
 | -------------------------------- | --- | ----------- |
-| JWK Cupid Switch                 | 88  | 36.60/w ship|
-| 2u MX stabilizor                 | 1   | 27.99       |
-| 2.25u MX stabilizer              | 2   | ^           |
-| 2.75u MX stabilizer              | 2   | ^           |
-| 6.25u MX stabilizer              | 1   | ^           |
-| 0.91" OLED SSD1306               | 1   | 1.75        |
-| 0.1uf 0805 capacitors            | 92  | 1.20        |
-| 4.7uf 0805 capacitors            | 3   | c           |
-| 1uf   0805 capacitor             | 1   | c           |
-| MiniMELF diodes                  | 88  | 00.73/100pc |
-| 0603 GLED Vf2.1 30mA             | 4   | 0.49        |
-| F Type USB C USB4135 Receptacles | 2   | 1.65        |
-| SK6812MINI-E                     | 88  | 10.99/100pc |
-| 470Ω 0805 resistor               | 5   | a           |
-| 4.7kΩ 0805 resistor              | 4   | a           |
-| 5.1kΩ 0805 resistor              | 4   | a           |
-| TPS2116DRL                       | 2   | 4.08        |
-| SN74LVC1T45DBVR                  | 1   | 2.65        |
+| 0.91" OLED SSD1306               | 1   | |
+| 0.1uf 0805 capacitors            | 90  | |
+| 4.7uf 0805 capacitors            | 3   | |
+| 1uf   0805 capacitor             | 3   | |
+| MiniMELF diodes                  | 88  | |
+| 0603 GLED Vf2.1 30mA             | 7   | |
+| USB-C Receptacles                | 2   | |
+| SK6812MINI-E                     | 88  | |
+| 470Ω 0805 resistor               | 5   | |
+| 4.7kΩ 0805 resistor              | 5   | |
+| 5.1kΩ 0805 resistor              | 4   | |
+| 10kΩ 0805 resistor               | 2   | |
+| 1kΩ 0805 resistor                | 2   | |
+| 200Ω 0805 resistor               | 3   | |
+| TPS2116DRL                       | 2   | |
+| SN74LVC1T45DBVR                  | 1   | |
+| CH224K                           | 2   | |
+| ESP12-E                          | 1   | |
 | Orph/Raspberry Pi Pico           | 1   | High Seas   |
 | Case (Preferably pink, else white "./production/case.3mf") | 1 | Me |
 | Acrylic ("./production/acrylic.dxf") | 1 | Hack Club |
-| M2 Heatset Inserts 4OD 4mm       | 24  | 1.80        |
-| M2 Torx Thin Head Bolts 5mm      | 12  | 1.63        |
-| M2 Torx Thin Head Bolts 5mm      | 12  | 2.30        |
+| M2 Heatset Inserts 4OD 4mm       | 28  | 1.74        |
+| M2 Torx Thin Head Bolts 5mm 14mm | 16  | 2.08        |
+| M2 Torx Thin Head Bolts 5mm 5mm  | 12  | 1.62        |
+| JWK Cupid Switch                 | 88  | 36.60/w ship|
+| 2u MX stabilizor                 | 5   | 27.99 (20$ new member) |
+| 6.25u MX stabilizer              | 1   | ^           |
 
 Old:
 
-| Total Price | PCB      | Switches | Fasteners | Keycaps | Stabilizers | Other     |
-| ----------- | -------- | -------- | --------- | ------- | ----------- | --------- |
-| ~120.00/ws  | 35.00/ws | 38.81/ws | 5.72/ns   | TODO    | 26.67/ns    | ~22.98/ws |
+| Total Price | PCB      | Switches | Fasteners | Keycaps  | Stabilizers | Other     |
+| ----------- | -------- | -------- | --------- | -------- | ----------- | --------- |
+| 120.63/ws   | 35.00/ws | 38.81/ws | 5.44/ns   | 21.79/ws | 19.59/ns    | ~24.03/ws |
+
+Please add this grant to my High Seas Digikey grant! <3
 
 ~The stabs are 22.38 USD so going to transfer 5$ to HQ.~ Done, https://hcb.hackclub.com/hackpad/donations - Chengyin Yao aka Cyao
 
-~Uhh I think the TX are still over budget? Gonna figure something out.~ Found in budget TX!
+~Uhh I think the TX are still over budget? Gonna figure something out.~ Found in budget TX! Gonna abuse new member discount lol.
+
+The LCSC cart might seem to have excess of some components, it's either: minimal quanitity, or at the end I could spend 2.7$ more to save 6$ so why not
 
 Cupid: https://keygem.com/products/cupid-switch-group-buy-10pcs?variant=44806087770380
 

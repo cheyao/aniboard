@@ -95,7 +95,9 @@ Old:
 
 | Total Price | PCB      | Switches | Fasteners | Keycaps  | Stabilizers | Other     |
 | ----------- | -------- | -------- | --------- | -------- | ----------- | --------- |
-| 120.63/ws   | 35.00/ws | 38.81/ws | 5.44/ns   | 21.79/ws | 19.59/ns    | ~24.03/ws |
+| 120.63/ws   | 37.00/ws | 38.81/ws | 5.44/ns   | 21.79/ws | 19.59/ns    | ~24.03/ws |
+
+2$ More in PCB for lead free HASL!
 
 Please add this grant to my High Seas Digikey grant! <3
 

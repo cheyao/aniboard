@@ -1,5 +1,5 @@
 Name                             , Qty , Price (EUR) ,
-0.91" OLED SSD1306               , 1   , ,
+0.91 OLED SSD1306               , 1   , ,
 0.1uf 0805 capacitors            , 90  , ,
 4.7uf 0805 capacitors            , 3   , ,
 1uf   0805 capacitor             , 3   , ,
@@ -18,8 +18,8 @@ SN74LVC1T45DBVR                  , 1   , ,
 CH224K                           , 2   , ,
 ESP12-E                          , 1   , ,
 Orph/Raspberry Pi Pico           , 1   , High Seas   ,
-Case (Preferably pink, else white "./production/case.3mf") , 1 , Me
-Acrylic ("./production/acrylic.dxf") , 1 , Hack Club ,
+Case (Preferably pink, else white ./production/case.3mf) , 1 , Me
+Acrylic (./production/acrylic.dxf) , 1 , Hack Club ,
 M2 Heatset Inserts 4OD 4mm       , 28  , 1.74        ,
 M2 Torx Thin Head Bolts 5mm 14mm , 16  , 2.08        ,
 M2 Torx Thin Head Bolts 5mm 5mm  , 12  , 1.62        ,

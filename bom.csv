@@ -18,7 +18,7 @@ SN74LVC1T45DBVR                  , 1   , ,
 CH224K                           , 2   , ,
 ESP12-E                          , 1   , ,
 Orph/Raspberry Pi Pico           , 1   , High Seas   ,
-Case (Preferably pink, else white ./production/case.3mf) , 1 , Me
+Case (Preferably pink else white ./production/case.3mf) , 1 , Me
 Acrylic (./production/acrylic.dxf) , 1 , Hack Club ,
 M2 Heatset Inserts 4OD 4mm       , 28  , 1.74        ,
 M2 Torx Thin Head Bolts 5mm 14mm , 16  , 2.08        ,
@@ -26,4 +26,5 @@ M2 Torx Thin Head Bolts 5mm 5mm  , 12  , 1.62        ,
 JWK Cupid Switch                 , 88  , 36.60/w ship,
 2u MX stabilizor                 , 5   , 27.99 (20$ new member) ,
 6.25u MX stabilizer              , 1   , ^           ,
-
+PCB + Stencil                    , 1   , 27.2        ,
+Total                            , 0   , 97.23$      ,
